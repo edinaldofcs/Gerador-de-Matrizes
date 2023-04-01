@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desenhar matriz</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <body>
+    <div id="menu" class="menu">
+      <button class="hide" id="hide">X</button>
+      <h1>Gerador de matrizes</h1>
+      <p>Presione o mouse para pintar as células</p>
+      <div>
+        <label for="matrix-rows">Linhas:</label>
+        <input type="number" id="matrix-rows" min="1" value="20" />
+      </div>
+      <div>
+        <label for="matrix-cols">Colunas:</label>
+        <input type="number" id="matrix-cols" min="1" value="50" />
+      </div>
+      <button id="save-button" class="save">GERAR TXT</button>
+      
+    </div>
+    <button class="save open" id="open">ABRIR</button>
+
+    <table id="matrix-table"></table>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
